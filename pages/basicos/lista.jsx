@@ -18,7 +18,9 @@ export default function lista() {
       <ul>
         {lista1.map(item => <li key={item}>{item}</li>)}
       </ul>
-      {gerarLista()}
+      <div>
+        {gerarLista()}
+      </div>
     </div>
   )
 }
